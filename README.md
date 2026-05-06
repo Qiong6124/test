@@ -28,3 +28,9 @@ make
 ```
 
 ## 项目结构
+| 文件 | 说明 |
+|------|------|
+| main.cpp | 程序入口 |
+| mainwindow | 主窗口界面 |
+| addstudlg | 添加学生对话框 |
+| friendmanager | 好友管理模块 |
