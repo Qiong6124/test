@@ -1,3 +1,6 @@
+## 说明
+非原创、有借鉴、仅测试、一周后删除
+
 # QtSQLite-ContactManager
 
 Qt Widgets + SQLite 桌面通讯录管理应用
