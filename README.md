@@ -1,36 +1,26 @@
-## 说明
-非原创、有借鉴、仅测试、一周后删除
+# Qt SQLite Contact Manager
 
-# QtSQLite-ContactManager
-
-Qt Widgets + SQLite 桌面通讯录管理应用
-
-## 技术栈
-- Qt 5.12.12 (Widgets + SQL)
-- SQLite 3.x
-- C++11
+## 简介
+基于 Qt 和 SQLite 的通讯录管理系统，支持学生信息管理和好友管理。
 
 ## 功能
-- 联系人信息管理（姓名、电话、邮箱、地址、描述）
-- 添加、编辑、删除联系人
-- 按地址查询联系人
-- 数据持久化存储
+- 添加学生信息
+- 好友管理
+- 数据持久化（SQLite）
 
-## 构建运行
-```bash
-# 环境要求
-- Qt 5.12.x 及以上
-- MinGW 32-bit 编译器
+## 技术栈
+- C++ / Qt
+- SQLite
+- Qt Designer
 
-# 编译
-qmake AddressBook.pro
-make
-```
+## 运行方式
+1. 用 Qt Creator 打开 `AddressBook.pro`
+2. 选择编译套件，点击运行
 
 ## 项目结构
 | 文件 | 说明 |
 |------|------|
-| main.cpp | 程序入口 |
-| mainwindow | 主窗口界面 |
-| addstudlg | 添加学生对话框 |
-| friendmanager | 好友管理模块 |
+| `main.cpp` | 程序入口 |
+| `mainwindow` | 主窗口界面 |
+| `addstudlg` | 添加学生对话框 |
+| `friendmanager` | 好友管理模块 |
